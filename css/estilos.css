@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cookie&family=Hurricane&family=Roboto&family=Smokum&display=swap');
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    color: blue;
+}
+h2{
+    color: rgb(32, 117, 6);
+    font-size: 70px;
+    font-family: 'Smokum', cursive;
+}
+p{
+    font-family: 'Hurricane', cursive;
+    font-size: 45px;
+    color: black;
+}
+ol{
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+    color: blueviolet;
+}
+ul{
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+}
