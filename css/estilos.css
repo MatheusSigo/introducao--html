@@ -1,14 +1,18 @@
+/*Importanto do google format*/
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cookie&family=Hurricane&family=Roboto&family=Smokum&display=swap');
 h1{
     font-family: 'Roboto', sans-serif;
+    /*Tamanho de fonte*/
     font-size: 90px;
+    /*Cor da fonte*/
     color: blue;
 }
-h2{
-    color: rgb(32, 117, 6);
+h2,h3{
+    color:rgb(46, 46, 46);
     font-size: 70px;
     font-family: 'Smokum', cursive;
 }
+
 p{
     font-family: 'Hurricane', cursive;
     font-size: 45px;
@@ -23,4 +27,15 @@ ul{
     font-family: 'Cinzel', serif;
     font-size: 40px;
     color: rgb(255, 0, 0);
+}
+.container{
+    color: white;
+    /*Cor do fundo*/
+    background-color: rgba(35, 190, 8, 0.918);
+    /*Altura e Largura*/
+    width: 550px;
+    height: 100px;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.397);
 }
