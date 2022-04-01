@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=BIZ+UDMincho&family=Playfair+Display&family=Send+Flowers&display=swap');
 body{
-    display: flex;
     justify-content: center;
     min-height: 100vh;
 }
@@ -48,4 +48,24 @@ span::after{
     border: 10px solid #fff;
     top: 16px;
     right: 16px;
+}
+
+h1{
+    font-family: 'Alfa Slab One';
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'BIZ UDMincho';
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+}
+
+p1{
+    font-family: 'Send Flowers';
+    font-size: 20px;
 }
