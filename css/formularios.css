@@ -6,6 +6,31 @@ body{
     height: 20px;
     width: 300px;
 }
+
+.senha input{
+    height: 20px;
+    width: 300px;
+}
+
+.email input{
+    height: 20px;
+    width: 300px;
+}
+
 svg{
     position: absolute;
+    left: 282px;
+    top: calc(50% - 3px);
+}
+
+form .nome{
+    position: relative;
+}
+
+form .senha{
+    position: relative;
+}
+
+form .email{
+    position: relative;
 }

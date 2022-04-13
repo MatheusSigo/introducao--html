@@ -9,30 +9,36 @@
     <title>Formularios</title>
 </head>
 <body>
-    <form action="">
-        <div class="nome">
-            <label for="name">Nome:</label><br>
-            <i data-feather="user"></i>
-            <input type="text" name="name" id="name"><br>
-        </div>
-        <div class="email">
-            <label for="password">Senha:</label><br>
-            <input type="password" name="password" id="password"><br>
-        </div>
-            <label for="email">Email:</label><br>
-            <input type="email" placeholder="E-mail" id="email"><br>
-            <label for="file">Arquivo:</label><br>
-            <input type="file" name="file" id="file"><br>
-        <br>
-        <p>Gênero</p>
-        <input type="radio" name="gender" id="female" value="female">
-        <label for="female">Feminino</label>
-        <input type="radio" name="gender" id="male" value="male">
-        <label for="male">Masculino</label>
-        <br><br>
-        <input type="checkbox" name="agree" id="agree">
-        <label for="agree">Concordo com os termos!!</label>
-    </form>
+    <div class="tudo">
+        <form>
+            <div class="nome">
+                <label for="name">Nome:</label><br>
+                <i data-feather="user"></i>
+                <input type="text" placeholder="Nome" id="name"><br>
+            </div>
+            <div class="senha">
+                <label for="password">Senha:</label><br>
+                <i data-feather="lock"></i>
+                <input type="password" placeholder="Senha" id="password"><br>
+            </div>
+            <div class="email">
+                <label for="email">Email:</label><br>
+                <i data-feather="mail"></i>
+                <input type="email" placeholder="E-mail" id="email"><br>
+            </div>
+                <label for="file">Arquivo:</label><br>
+                <input type="file" name="file" id="file"><br>
+            <br>
+            <p>Gênero</p>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Feminino</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Masculino</label>
+            <br><br>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">Concordo com os termos!!</label>
+        </form>
+    </div>
     <br>
     <script>
         feather.replace()
