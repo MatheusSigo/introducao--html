@@ -3,7 +3,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 10;
-    background: #ffffff;
+    background: #000000;
 }
 
 *{
@@ -44,7 +44,7 @@ form input[type="submit"]{
 }
 
 form .input-container input{
-    border: 1px solid #acacac;
+    border: 1px solid #6e6e6e;
     color: #818181;
     padding: 0 55px 0 25px;
     font-size: 1rem;
