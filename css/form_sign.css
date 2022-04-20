@@ -3,7 +3,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 10;
-    background: #ebebeb;
+    background: #ffffff;
 }
 
 *{
@@ -14,6 +14,7 @@ body{
     background: white;
     margin: 15px auto;
     width: 400px;
+    border-radius: 5%;
 }
 
 form{
@@ -38,12 +39,12 @@ form .input-container input,input[type="submit"]{
 form input[type="submit"]{
     border: 0;
     background: red;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
 form .input-container input{
-    border: 1px solid #e4e4e4;
+    border: 1px solid #acacac;
     color: #818181;
     padding: 0 55px 0 25px;
     font-size: 1rem;
@@ -106,4 +107,9 @@ form .social-media-container .icon-container svg{
     top: calc(50% - 12px);
     left: calc(50% - 12px);
     color: white;
+}
+
+.footer{
+    width: fit-content;
+    margin: 20px auto;
 }
